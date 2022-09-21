@@ -41,13 +41,20 @@ The dataset used for the analysis were gotten from
 Microsoft Excel and PowerBi were chosen for data cleaning and analysis.
 I imported and saved the files in excel.
 
-#### Process
+## Process
 I assessed the dataset looking out for duplicates, missing data, incorrect data types. I renamed the columns to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
 I used the countifs function to get the number of Gold, Silver and Bronze medals won by each athlete. I used advanced filter in data tools to filter unique names to get unique athlete names. I used flash fill to split first name and last names of the athletes. Here is one of the quality issues I encountered.
 [image]
 
-I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking. I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
-In PowerBi, I created new columns and new measures using DAX.
+## Analysis
+ I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
+In PowerBi, I created new columns and new measures using DAX.I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
+
+![image](gbs_cwg.png)
+
+
+#### Observation
+
 
 I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
 
