@@ -64,7 +64,7 @@ Australia had the highest number of medals (178 medals), followed closely by Eng
 ![athlete](medals_by_athlete.png)
 
 #### Observation
-Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callie and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mcl follwed behind with a total of medals each
+Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callaghan and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mckintosh followed behind with a total of 6 medals each.
 
 ![medals](medal_comparison.png)
 
