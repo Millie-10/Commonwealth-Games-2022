@@ -39,26 +39,41 @@ The dataset used for the analysis were gotten from
 <https://results.gc2018.com/en/all-sports/medal-standings.htm>.
 
 Microsoft Excel and PowerBi were chosen for data cleaning and analysis.
-I imported and saved the files in excel.
+I downloaded all the files I needed and saved the files in excel.
 
 ## Process
-I assessed the dataset looking out for duplicates, missing data, incorrect data types. I renamed the columns to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
-I used the countifs function to get the number of Gold, Silver and Bronze medals won by each athlete. I used advanced filter in data tools to filter unique names to get unique athlete names. I used flash fill to split first name and last names of the athletes. Here is one of the quality issues I encountered.
+I assessed the dataframes looking out for duplicates, missing data, incorrect data types. I renamed the columns to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
+I used the countifs function to get the number of Gold, Silver and Bronze medals won by each athlete. I used advanced filter in data tools to filter unique names to get unique athlete names from the medalists' dataframe. I used flash fill to split first name and last names of the athletes. Here is one of the quality issues I encountered.
+
 ![quality](quality_eg.png)
 
-Here inserted a new column and wrote how i wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
+Here I inserted a new column and wrote how I wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
 
 ## Analysis
  I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
 In PowerBi, I created new columns and new measures using DAX.I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
+I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
+
+![column](new_column.png)
 
 ![image](gbs_cwg.png)
+
+![2022_cwg.png)
+
+#### Observation
+Australia had the highest number of medals (178 medals), followed closely by England's 176 total medals. In the third place is Canada with 92 medals followed by India with 61 medals.
+
+![athlete](medals by athlete.png)
+
+#### Observation
+Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callie and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mcl follwed behind with a total of medals each
+
+![ranking](cwg_ranking.png)
 
 
 #### Observation
 
 
-I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
 
 
 ```{}
