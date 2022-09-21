@@ -44,7 +44,9 @@ I imported and saved the files in excel.
 ## Process
 I assessed the dataset looking out for duplicates, missing data, incorrect data types. I renamed the columns to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
 I used the countifs function to get the number of Gold, Silver and Bronze medals won by each athlete. I used advanced filter in data tools to filter unique names to get unique athlete names. I used flash fill to split first name and last names of the athletes. Here is one of the quality issues I encountered.
-[image]
+![quality](quality_eg.png)
+
+Here inserted a new column and wrote how i wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
 
 ## Analysis
  I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
