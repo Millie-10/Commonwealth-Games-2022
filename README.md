@@ -54,19 +54,19 @@ Here I inserted a new column and wrote how I wanted the names to appear in the f
 In PowerBi, I created new columns and new measures using DAX.I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
 I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
 
-![column](new_column.png)
-
 ![image](gbs_cwg.png)
 
-![2022_cwg.png)
+![cwg_2022.png)
 
 #### Observation
 Australia had the highest number of medals (178 medals), followed closely by England's 176 total medals. In the third place is Canada with 92 medals followed by India with 61 medals.
 
-![athlete](medals by athlete.png)
+![athlete](medals_by_athlete.png)
 
 #### Observation
 Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callie and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mcl follwed behind with a total of medals each
+
+![medals](medal_comparison.png)
 
 ![ranking](cwg_ranking.png)
 
