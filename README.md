@@ -47,7 +47,7 @@ I used the countifs function to get the number of Gold, Silver and Bronze medals
 
 ![quality](quality_eg.png)
 
-Here I inserted a new column and wrote how I wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
+Here I renamed the worksheet then inserted a new column and wrote how I wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
 
 ## Analysis
  I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
@@ -58,7 +58,7 @@ I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Imag
 
 ![image](gbs_cwg.png)
 
-![cwg_2022.png)
+![2022](cwg_2022.png)
 
 #### Observation
 Australia had the highest number of medals (178 medals), followed closely by England's 176 total medals. In the third place is Canada with 92 medals followed by India with 61 medals.
@@ -82,11 +82,21 @@ Australia, England, Canada and India maintained their ranks in 2018, New Zealand
 
 To make this easy to see, I created an interactive report where you can select each country and see the total medals they got in 2018 vs 2022, change in total medals and change in ranking.
 
-![image](cwg_dashboard.png)
+![image](commonwealth_dashboard.png)
 
+![green](cwg_sample.png)
 
+![red](cwg_sample2.png)
 
 I used colours and arrows to show positive and negative movements. Here green arrow pointing upwards represents an upward movement in rank table and an increase in total medal. Red arrow pointing downwards represents a downward movement in rank table and a decrease in total medal.
+
+## Summary
+
+* England had a total of 176 medals which is a very close one compared to Australia's 178 total medals. Australia's total medals dropped by 20 while England's total medals increased a by 40.
+* Across all 43 teams that won at least a medal, total medal in 2022 ranged from 1 to 178.
+* Australia topped the rank table with 198 total medals in 2018 and 178 total medals in 2022.
+* Emma McKeon is the most decorated athlete with a total of 8 medals.
+* Total medals gotten by all teams in 2018 is 840 while the total medals gotten by all teams in 2022 is 877 which is an increase by 37.
 
 
 ###### codes used in attaching the arrows
