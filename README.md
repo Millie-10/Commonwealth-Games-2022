@@ -1,4 +1,4 @@
-# Commonwealth-Games-2022.
+# Commonwealth-Games-2022
 ---
 Title: "Commonwealth Games 2022"
 
@@ -11,7 +11,7 @@ Date: '2022-09-17'
 
 ## Introduction
 
-I started learning PowerBi on DataCamp.com around the time the Commonwealth Games 2022 hosted by Birmingham UK started. It started on July 28 and ended on August 8th 2022. I decided to do this project to show the knowledge of PowerBi I have acquired so far. 
+I started learning PowerBi on DataCamp.com around the time the Commonwealth Games 2022 hosted by Birmingham UK started. It started on July 28 and ended on August 8th 2022. I decided to do this project to test the knowledge of PowerBi I have acquired so far. 
 Commonwealth Games is a sports competition in which only the Commonwealth of Nations and their territories are eligible to participate. Commonwealth of Nations are a group of sovereign nations which were former colonies of the British Empire. A total of 72 countries participated in 2022 Commonwealth Games.  
 
 I downloaded the 2022 result datasets from Kaggle.com, for quality issues I compared it to the data in the Birmingham2022 website.
@@ -54,6 +54,8 @@ Here I inserted a new column and wrote how I wanted the names to appear in the f
 In PowerBi, I created new columns and new measures using DAX.I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
 I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
 
+#### How the Countries Performed
+
 ![image](gbs_cwg.png)
 
 ![cwg_2022.png)
@@ -61,10 +63,14 @@ I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Imag
 #### Observation
 Australia had the highest number of medals (178 medals), followed closely by England's 176 total medals. In the third place is Canada with 92 medals followed by India with 61 medals.
 
+#### How the Athletes Performed
+
 ![athlete](medals_by_athlete.png)
 
 #### Observation
 Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callaghan and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mckintosh followed behind with a total of 6 medals each.
+
+#### Country Performance in 2022 vs 2018
 
 ![medals](medal_comparison.png)
 
@@ -72,10 +78,18 @@ Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold an
 
 
 #### Observation
+Australia, England, Canada and India maintained their ranks in 2018, New Zealand went down by 1 in ranking while Scotland went up the rank table by 1. Nigeria moved up the rank table from 10th to 7th while South Africa moved down the table by 2. looking at the rank tables you would notice lots of movements.
+
+To make this easy to see, I created an interactive report where you can select each country and see the total medals they got in 2018 vs 2022, change in total medals and change in ranking.
+
+![image](cwg_dashboard.png)
 
 
 
+I used colours and arrows to show positive and negative movements. Here green arrow pointing upwards represents an upward movement in rank table and an increase in total medal. Red arrow pointing downwards represents a downward movement in rank table and a decrease in total medal.
 
+
+###### codes used in attaching the arrows
 ```{}
 arrow ranking = if(comparison[Change in Ranking] > 0, [up arrow], if(comparison[Change in Ranking] < 0, [down arrow], "data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAGAAAAB+CAMAAAGbndR3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAnUExURQAAAP///////////////////////////////////////////////649SjkAAAAMdFJOUwAWF0BggMrLzM3P7w1CQSwAAAAJcEhZcwAAFxEAABcRAcom8z8AAAKKSURBVFhH7ZjhetowDEUDWynd9v7Pu0g6gGzHsRwSunY+f2pd3SuV8LWQTDNvfwQ5fU6hJ8NXvqdnKs5acRIS/dF6fWEn5eqq+Xyv9Ez1bmet7ue5cuf5av16gGTYZTSQjO/QoE7wl86BLKAoyUV8tDJZqMjChZ8OnQJIBu+RgmRgVpAMNAXJQFOQDDQFyUBTkAw0BclAU5AMNAXJQFOQDDQFyUBTkAw0BclAU5AMNAXJQFOQDDQFyUBTkAw0BelMmVHr1DKqL3TQiw6qkHTQDNdBuXHvUD+gQ+XRDueUucMp58zPEv9H7aFd8oLA72Vol/yLrwFDDu2SEXDQLvlvAifEIPLx5/7LtLh9Egcj7oM7EvF2oRHJ7cJKZMkuVCKV7wvKQmTNLmSRll1wkYhdIBK1C3Nk4TtQgQ0ueKNdgiGnHuCLVc6OGzDkfGaAT6ic7/2iMeSMQAKGnBFIwJAzAgkYckYgAUPOqwMX1CCnafrgGEJv6a4UAbgFDCfm38cIJu7+YML5Q4nEH0hk/mai8DcSC/7VxKJ/JVHxVxNVfyWx4p+md0yOVf9CouEvEk1/lgj4k0TI7xJB/z0R9pPo8Guiyz8nOv31+9IK9f+ONQ5f8LMTYnG+/iU6fMGPTojFGe9Bk7GgyVjQZCxoMhY0GQuajAVNxoImY0GTsaDJF1pw6npc1seH3T2fD1px5WHczHn1IdM2rum9/94rsvHCnisWxgt7raiMF/ZYsTJeeHZFY7zwzIrAeGHriuB4YcuKzmdevSv6H6l1rdgwXji7Z5xrbBwvRFY8MV5orXhyvLC2YofxQm3FTuOFpRU7jhfyFTuPF/yKA8YLtxUHjRdkxeW48cKpb/w0/QWq7BBVU+QawgAAAABJRU5ErkJggg=="))
