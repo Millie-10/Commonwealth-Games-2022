@@ -11,12 +11,13 @@ Date: '2022-09-17'
 
 ## Introduction
 
-I started learning PowerBi on DataCamp.com around the time the Commonwealth Games 2022 hosted by Birmingham UK started. It started on July 28 and ended on August 8th 2022. I decided to do this project to test the knowledge of PowerBi I have acquired so far. 
+This project is about the Commonwealth Games 2022 hosted by Birmingham UK started. It started on July 28 and ended on August 8th 2022. It was done to test the knowledge of PowerBi I have acquired so far. 
 Commonwealth Games is a sports competition in which only the Commonwealth of Nations and their territories are eligible to participate. Commonwealth of Nations are a group of sovereign nations which were former colonies of the British Empire. A total of 72 countries participated in 2022 Commonwealth Games.  
 
-I downloaded the 2022 result datasets from Kaggle.com, for quality issues I compared it to the data in the Birmingham2022 website.
+Datasets were gotten from Kaggle.com, for quality issues, it was compared to the data in the Birmingham2022 website.
 
 I thought it would be nice to see:
+
 *	Which team had the most medals.
 *	Which team topped the rank.
 *	The most decorated athlete.
@@ -39,20 +40,20 @@ The dataset used for the analysis were gotten from
 <https://results.gc2018.com/en/all-sports/medal-standings.htm>.
 
 Microsoft Excel and PowerBi were chosen for data cleaning and analysis.
-I downloaded all the files I needed and saved the files in excel.
+All files needed were downloaded and saved in a folder in Excel.
 
 ## Process
-I assessed the dataframes looking out for duplicates, missing data, incorrect data types. I renamed the columns to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
-I used the countifs function to get the number of Gold, Silver and Bronze medals won by each athlete. I used advanced filter in data tools to filter unique names to get unique athlete names from the medalists' dataframe. I used flash fill to split first name and last names of the athletes. Here is one of the quality issues I encountered.
+I assessed the dataframes looking out for duplicates, missing data, incorrect data types. The columns were renamed to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
+The countifs function was used to get the number of Gold, Silver and Bronze medals won by each athlete. Advanced filter in data tools was used to filter the medalist's dataframe to get unique athlete names. Flash fill was used to split first name and last names of the athletes. Here is one of the quality issues encountered.
 
 ![quality](quality_eg.png)
 
-Here I renamed the worksheet then inserted a new column and wrote how I wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
+Here the worksheet was renamed then a new column was inserted. I wrote how I wanted the names to appear in the first cell then used Ctrl + E or flash fill to fill down.
 
 ## Analysis
- I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
-In PowerBi, I created new columns and new measures using DAX.I created 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
-I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
+The dataset was imported into Microsoft PowerBi and the extra columns that were created were removed. Column names were renamed appropriately.
+In PowerBi, new columns and new measures were created using DAX (2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking).
+An arrow was created in Ms Powerpoint and saved as a picture. This was changed to base64. I downloaded Image Pro by CloudScope in more visuals in PowerBi to visualize the arrows.
 
 #### How the Countries Performed
 
