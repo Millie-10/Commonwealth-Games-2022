@@ -11,15 +11,15 @@ Date: '2022-09-17'
 
 ## Introduction
 
-This project is about the Commonwealth Games 2022 hosted by Birmingham UK started. It started on July 28 and ended on August 8th 2022. It was done to test the knowledge of PowerBi I have acquired so far. 
-Commonwealth Games is a sports competition in which only the Commonwealth of Nations and their territories are eligible to participate. Commonwealth of Nations are a group of sovereign nations which were former colonies of the British Empire. A total of 72 countries participated in 2022 Commonwealth Games.  
+This project is about the Commonwealth Games 2022 hosted by Birmingham United Kingdom. It started on July 28 and ended on August 8, 2022. It was done to test the knowledge of PowerBi I have acquired so far. 
+Commonwealth Games is a sports competition in which only the Commonwealth of Nations and their territories are eligible to participate. Commonwealth of Nations are a group of sovereign nations which were former British Empire colonies. A total of 72 countries participated in 2022 Commonwealth Games.  
 
-Datasets were gotten from Kaggle.com, for quality issues, it was compared to the data in the Birmingham2022 website.
+Datasets were obtained from Kaggle.com; for quality issues, it was compared to the data on the Birmingham2022 website.
 
-I thought it would be nice to see:
+I thought it will be an excellent idea to see:
 
 *	Which team had the most medals.
-*	Which team topped the rank.
+*	Which team topped the rank table.
 *	The most decorated athlete.
 *	Which teams participated.
 *	How the teams performed generally compared to 2018.
@@ -43,7 +43,7 @@ Microsoft Excel and PowerBi were chosen for data cleaning and analysis.
 All files needed were downloaded and saved in a folder in Excel.
 
 ## Process
-I assessed the dataframes looking out for duplicates, missing data, incorrect data types. The columns were renamed to be understandable for instance medal to medal type, abbreviations were changed for example S to silver, G to gold, B to bronze using the find and replace.
+I assessed the dataframes looking out for duplicates, missing data, incorrect data types. Columns were renamed to be understandable, for instance, medal to medal type; abbreviations were changed, for example, S to silver, G to gold, B to bronze using the find and replace.
 The countifs function was used to get the number of Gold, Silver and Bronze medals won by each athlete. Advanced filter in data tools was used to filter the medalist's dataframe to get unique athlete names. Flash fill was used to split first name and last names of the athletes. Here is one of the quality issues encountered.
 
 ![quality](quality_eg.png)
@@ -101,11 +101,11 @@ I used colours and arrows to show positive and negative movements. Here green ar
 
 ## Summary
 
-* England had a total of 176 medals which is a very close one compared to Australia's 178 total medals. Australia's total medals dropped by 20 while England's total medals increased a by 40.
-* Across all 43 teams that won at least a medal, total medal in 2022 ranged from 1 to 178.
-* Australia topped the rank table with 198 total medals in 2018 and 178 total medals in 2022.
-* Emma McKeon is the most decorated athlete with a total of 8 medals.
-* Total medals gotten by all teams in 2018 is 840 while the total medals gotten by all teams in 2022 is 877 which is an increase by 37.
+* England had 176 medals which is very close compared to Australia's 178 total medals. Australia's total medals dropped by 20 while England's total medals increased by 40.
+* Across all 43 teams that won at least a medal, the total medal in 2022 ranged from 1 to 178.
+* Australia topped the rank table with 198 total medals in 2018 and 178 total in 2022.
+* Emma McKeon is the most decorated athlete with 8 medals.
+* The total medals gotten by all teams in 2018 is 840, while the total medals earned by all teams in 2022 is 877, an increase of 37.
 
 
 ###### DAX measures used 
