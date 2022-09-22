@@ -25,7 +25,7 @@ I thought it would be nice to see:
 
 ## **PROJECT METHODOLOGY**
 The steps of the project can be summarized as follows:
-#### Prepare
+## Prepare
 The dataset used for the analysis were gotten from 
 
  <https://www.kaggle.com/datasets/ramjasmaurya/commonwealth-games-2022>,
@@ -51,7 +51,7 @@ Here I renamed the worksheet then inserted a new column and wrote how I wanted t
 
 ## Analysis
  I imported the dataset into Microsoft PowerBi and clicked on transform. I removed the extra columns that were created and renamed the column names appropriately.
-In PowerBi, I created new columns and new measures using DAX.I created extra columns 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
+In PowerBi, I created new columns and new measures using DAX.I created 2018 Ranking, 2022 Ranking, Change in Total Medal and Change in Ranking.
 I created an arrow in Ms Powerpoint and saved it as a picture. I downloaded Image Pro by CloudScope in more visuals in PowerBi. I changed the arrow image to base64 and then visualized it with Image Pro.
 
 #### How the Countries Performed
@@ -68,9 +68,9 @@ Australia had the highest number of medals (178 medals), followed closely by Eng
 ![athlete](medals_by_athlete.png)
 
 #### Observation
-Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold and 2 silver medals). Mollie O'Callaghan and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mckintosh followed behind with a total of 6 medals each.
+Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold, 1 silver and 1 bronze medals). Mollie O'Callaghan and Tom Dean won 7 medals each while Duncan Scott, James Guy, Kaylee McKeon, Summer Mckintosh followed behind with a total of 6 medals each.
 
-#### Country Performance in 2022 vs 2018
+#### Country Performance 2022 vs 2018
 
 ![medals](medal_comparison.png)
 
@@ -78,17 +78,23 @@ Emma Mckeon is the most decorated athlete. She won a total of 8 medals(6 gold an
 
 
 #### Observation
-Australia, England, Canada and India maintained their ranks in 2018, New Zealand went down by 1 in ranking while Scotland went up the rank table by 1. Nigeria moved up the rank table from 10th to 7th while South Africa moved down the table by 2. looking at the rank tables you would notice lots of movements.
+Australia, England, Canada and India maintained their ranks in 2018. New Zealand went down by 1 in ranking while Scotland went up the table by 1. Nigeria moved up the table from 10th to 7th while South Africa moved down the table by 2. Looking at the rank tables you will notice lots of upward and downward movements by the countries.
 
 To make this easy to see, I created an interactive report where you can select each country and see the total medals they got in 2018 vs 2022, change in total medals and change in ranking.
 
 ![image](commonwealth_dashboard.png)
 
+
 ![green](cwg_sample.png)
+
 
 ![red](cwg_sample2.png)
 
 I used colours and arrows to show positive and negative movements. Here green arrow pointing upwards represents an upward movement in rank table and an increase in total medal. Red arrow pointing downwards represents a downward movement in rank table and a decrease in total medal.
+
+To see more
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qBEbJxu61CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Summary
 
