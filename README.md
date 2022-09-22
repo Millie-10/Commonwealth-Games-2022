@@ -92,9 +92,11 @@ To make this easy to see, I created an interactive report where you can select e
 
 I used colours and arrows to show positive and negative movements. Here green arrow pointing upwards represents an upward movement in rank table and an increase in total medal. Red arrow pointing downwards represents a downward movement in rank table and a decrease in total medal.
 
-To see more
+###### To see more, click on the video below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qBEbJxu61CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![interaction](youtube_video.png)](https://youtu.be/qBEbJxu61CM "Commonwealth Games - Click to Watch!")
+
 
 ## Summary
 
@@ -104,6 +106,21 @@ To see more
 * Emma McKeon is the most decorated athlete with a total of 8 medals.
 * Total medals gotten by all teams in 2018 is 840 while the total medals gotten by all teams in 2022 is 877 which is an increase by 37.
 
+
+###### DAX measures used 
+
+```{}
+= Table.AddRankColumn(#"Added Custom1", "2022 Ranking",{"2022", Order.Descending})
+```
+```{}
+= Table.AddRankColumn(Custom1,"2018 Ranking",{"2018",Order.Descending})
+```
+```{}
+= Table.AddColumn(Custom2, "Change", each [2022 Ranking] - [2018 Ranking])
+```
+```{}
+= Table.AddColumn(#"Added Custom2", "change medal", each [2022 Total Medal] - [2018 Total Medal])
+```
 
 ###### codes used in attaching the arrows
 ```{}
